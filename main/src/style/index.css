@@ -39,3 +39,15 @@ nav a {
   text-transform: uppercase;
   transition: color 0.3s ease-in-out;
 }
+@media (max-width: 768px) {
+  header {
+    height: 30vh; /* Reduce height on smaller screens */
+  }
+}
+
+/* Adjust for very large screens */
+@media (min-width: 1200px) {
+  header {
+    height: 70vh; /* Increase height for large screens */
+  }
+}
