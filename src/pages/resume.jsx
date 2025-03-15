@@ -1,4 +1,47 @@
+import React from "react";
+
 export default function Resume() {
+  const downloadResume = () => {
+    const resumeContent = `
+      Tiffany Clark
+      Web Developer
+
+      Front-end Proficiencies:
+      - HTML5
+      - CSS
+      - JavaScript
+      - React
+      - Responsive Web Design
+
+      Back-end Proficiencies:
+      - Node.js
+      - Express.js
+      - API Development
+      - SQL
+
+      Version Control:
+      - Git
+      - GitHub
+
+      Additional Skills:
+      - Problem-solving and Debugging
+      - Collaboration & Teamwork
+
+      Education:
+      - Currently taking bootcamp classes for certification in coding
+
+      Projects:
+      - Project 1: A responsive webpage design
+      - GitHub: https://github.com/lobungen/Project1
+    `;
+
+    const blob = new Blob([resumeContent], { type: "text/plain" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "Tiffany_Clark_Resume.txt";
+    link.click();
+  };
+
   return (
     <div>
       <h2>Resume</h2>
@@ -40,7 +83,7 @@ export default function Resume() {
       <h3>Projects</h3>
       <ul>
         <li>
-          Currently we've only had one project to make a webpage with a
+          Currently, we've only had one project to make a webpage with a
           responsive design,
           <a
             href="https://github.com/lobungen/Project1"
@@ -49,9 +92,10 @@ export default function Resume() {
           >
             Project 1 on GitHub
           </a>
-          .
         </li>
       </ul>
+
+      <button onClick={downloadResume}>Download Resume as Text File</button>
     </div>
   );
 }
