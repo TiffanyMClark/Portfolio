@@ -16,20 +16,21 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/Contact",
+        path: "/contact", // Lowercase paths are recommended
         element: <Contact />,
       },
       {
-        path: "/Portfolio",
+        path: "/portfolio",
         element: <Portfolio />,
       },
       {
-        path: "/Resume",
+        path: "/resume",
         element: <Resume />,
       },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
-<RouterProvider router={router} />;
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
+);
