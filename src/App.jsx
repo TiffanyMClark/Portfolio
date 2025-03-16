@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
@@ -11,7 +11,7 @@ import "./assets/style/index.css";
 
 export default function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route
@@ -41,6 +41,6 @@ export default function App() {
         <Route path="/Resume" element={<Resume />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
