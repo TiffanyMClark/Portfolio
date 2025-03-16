@@ -36,9 +36,9 @@ export default function App() {
             </section>
           }
         />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Resume" element={<Resume />} />
       </Routes>
       <Footer />
     </Router>
