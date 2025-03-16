@@ -7,7 +7,7 @@ export default function Resume() {
       Web Developer
 
       Front-end Proficiencies:
-      - HTML5
+      - HTML
       - CSS
       - JavaScript
       - React
