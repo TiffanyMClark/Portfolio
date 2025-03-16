@@ -31,7 +31,7 @@ export default function App() {
                 development and am always eager to expand my skills. I enjoy
                 working on challenging projects that push me to be better. When
                 I'm not coding, I enjoy spending time with my family, reading,
-                baking or just out and about we enjoy beach days!
+                baking or just out and about we enjoy having beach days!
               </p>
             </section>
           }
