@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import Contact from "./pages/Contact.jsx";
-import Portfolio from "./pages/Portfolio.jsx";
-import Resume from "./pages/Resume.jsx";
+import Contact from "./Pages/Contact.jsx";
+import Portfolio from "./Pages/Portfolio.jsx";
+import Resume from "./Pages/Resume.jsx";
 import "./assets/style/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
