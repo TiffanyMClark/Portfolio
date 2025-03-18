@@ -48,7 +48,7 @@ export default function Resume() {
 
       <h3>Front-end Proficiencies</h3>
       <ul>
-        <li>HTML5</li>
+        <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
         <li>React</li>

@@ -17,7 +17,7 @@ export default function App() {
         <Route
           path="/"
           element={
-            <section id="about-me">
+            <section id="about-me" className="centered-container">
               <h2>About Me</h2>
               <div className="profile-photo">
                 <img src={profilePic} alt="Tiffany Clark" />
