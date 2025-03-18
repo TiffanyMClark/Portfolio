@@ -195,8 +195,12 @@ footer a:hover {
   object-fit: cover;
 }
 body {
-  background-color: hsl(183, 89%, 47%);
-  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .portfolio-buttons {
