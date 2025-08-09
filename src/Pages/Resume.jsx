@@ -28,7 +28,7 @@ export default function Resume() {
       - Collaboration & Teamwork
 
       Education:
-      - Currently taking bootcamp classes for certification in coding
+      - I finished my fullstack Bootcamp and moved on to a back-end coding class for further learning.
 
       Projects:
       - Project 1: A responsive webpage design
@@ -77,7 +77,10 @@ export default function Resume() {
 
       <h3>Education</h3>
       <ul>
-        <li>Currently taking bootcamp classes for certification in coding</li>
+        <li>
+          I finished my fullstack Bootcamp and moved on to a back-end coding
+          class for further learning
+        </li>
       </ul>
 
       <h3>Projects</h3>

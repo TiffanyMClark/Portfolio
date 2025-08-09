@@ -4,7 +4,7 @@ import project2Image from "../assets/images/fish.jpg";
 import project3Image from "../assets/images/manatee.jpg";
 import project4Image from "../assets/images/sealion.jpg";
 import project5Image from "../assets/images/highland.jpg";
-import project6Image from "../assets/images/ladybug.jpg";
+import project6Image from "../assets/images/blacktea.jpg";
 import project7Image from "../assets/images/kikis.jpg";
 
 export default function Portfolio() {
@@ -23,6 +23,7 @@ export default function Portfolio() {
               alt="Project 1"
               className="portfolio-button-image"
             />
+            <p> Project 1 making a website</p>
           </button>
         </a>
 
@@ -37,6 +38,7 @@ export default function Portfolio() {
               alt="Project 2"
               className="portfolio-button-image"
             />
+            <p> Typescript prompter for Vehicles</p>
           </button>
         </a>
 
@@ -51,6 +53,7 @@ export default function Portfolio() {
               alt="Project 3"
               className="portfolio-button-image"
             />
+            <p> A readme creator </p>
           </button>
         </a>
 
@@ -65,10 +68,11 @@ export default function Portfolio() {
               alt="Project 4"
               className="portfolio-button-image"
             />
+            <p> My Github </p>
           </button>
         </a>
         <a
-          href="https://github.com/TiffanyMClark?tab=repositories"
+          href="https://github.com/TiffanyMClark/TeaTime"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -78,6 +82,7 @@ export default function Portfolio() {
               alt="Project 2"
               className="portfolio-button-image"
             />
+            <p> Tea Time Project Final </p>
           </button>
         </a>
         <a
@@ -91,6 +96,7 @@ export default function Portfolio() {
               alt="Project 2"
               className="portfolio-button-image"
             />
+            <p> My first prework study guide </p>
           </button>
         </a>
       </div>
